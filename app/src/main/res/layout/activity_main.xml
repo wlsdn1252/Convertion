@@ -15,6 +15,7 @@
         android:inputType="numberDecimal"
         android:textColor="@color/purple_200"
         android:textSize="30sp"
+        android:maxLength="7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.412"
@@ -46,6 +47,7 @@
         android:layout_marginLeft="16dp"/>
 
     <ImageButton
+        android:id="@+id/swapImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
